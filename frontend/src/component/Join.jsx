@@ -105,6 +105,7 @@ const Join = () => {
         chat._id
       ).then((data) => {
         setMessages(data);
+        console.log("emiting chat join");
         socket.emit("join chat", chat._id);
         console.log(data);
       });

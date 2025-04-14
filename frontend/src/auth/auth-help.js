@@ -7,7 +7,6 @@ const auth = {
     else
       return false
   },
-  
 }
 
 export default auth

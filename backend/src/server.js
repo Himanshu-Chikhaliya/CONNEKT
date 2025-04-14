@@ -16,7 +16,9 @@ const app = express();
 // Bodyparser middleware
 app.use(express.urlencoded());
 app.use(express.json());
-app.use(cors({ origin: true }));
+app.use(cors({
+  origin: "http://localhost:3000"
+}));
 
 passport.use(passportStrategy);
 app.use(passport.initialize());
@@ -29,10 +31,16 @@ app.get("/", (req, res) => {
 });
 
 const server = http.createServer(app)
-const io = require('socket.io')(server);
+const io = require('socket.io')(server, {
+  cors:{
+    origin: "http://localhost:3000",
+    // methods: ["GET", "POST"],
+    // credentials: true
+  }
+});
 
 io.on("connection", (socket) => {
-  console.log("User Connect")
+  // console.log("User Connect")
   socket.on("setup", (userData) => {
     socket.join(userData.id)
     console.log(userData.id)

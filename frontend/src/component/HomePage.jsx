@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 import BounceLoader from 'react-spinners/BounceLoader'
 import MoonLoader from 'react-spinners/MoonLoader'
 import {toast} from 'react-toastify';
-import NavBar from './NavBar'
+import NavBar from './NavBar' 
 import { listItemTextClasses } from '@mui/material'
 
 const HomePage = () => {
