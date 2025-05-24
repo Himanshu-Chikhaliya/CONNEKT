@@ -1,0 +1,113 @@
+/* Full-page center alignment */
+.container1 {
+    min-height: 100vh;
+    width:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+    flex-direction: column;
+    background-color: #F3F0EA; /* optional soft background */
+  }
+  .main-bgcolor{
+    background-color: #F3F0EA
+  }
+  /* Heading style */
+  h2 {
+    
+    color: #0a2a45;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  h3{
+    text-align: center;
+    color: #f57c00;
+    margin-bottom: 1rem;
+    font-weight: 600;
+
+  }
+  .logo-imgreg{
+    width: 200px; /* or whatever fits your layout */
+    max-width: 100%;
+    height: auto;
+  }
+  /* Card container */
+  .card {
+    width: 100%;
+    
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: none;
+  }
+  
+  /* Card body padding */
+  .card-body {
+    padding: 2rem;
+  }
+  
+  /* Form inputs spacing */
+  .form-group {
+    margin-bottom: 1.2rem;
+  }
+  
+  /* Connekt-style register button */
+  .btn-dark {
+    background-color: #f57c00 !important;
+    border: none;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 999px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 12px rgba(245, 124, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-dark:hover {
+    color: #f57c00;
+    background-color: white !important;
+    border:#f57c00;
+    border-width: 2px;
+    opacity: 0.9;
+    transform: scale(1.03);
+  }
+
+  .btn-primary {
+    background-color: #0a2a45 !important;
+    border: none;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 999px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 12px rgba(245, 124, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    color: #0a2a45;
+    background-color: white !important;
+    border:#0a2a45;
+    border-width: 2px;
+    opacity: 0.9;
+    transform: scale(1.03);
+  }
+  
+  /* Link style */
+  a {
+    color: #0a2a45;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #d65c00;
+    text-decoration: underline;
+  }
+  
+  /* Responsive form width */
+  .col-sm-8 {
+    width: 100%;
+    max-width: 700px;
+  }
+  

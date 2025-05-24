@@ -1,0 +1,94 @@
+.insta-wrapper {
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #F3F0EA /* optional dark background */
+  }
+  
+  .main-bgcolor{
+    background-color: #F3F0EA
+  }
+
+  .insta-gradient-btn {
+    background: linear-gradient(
+      45deg,
+      #feda75,
+      #fa7e1e,
+      #d62976,
+      #962fbf,
+      #4f5bd5
+    );
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 999px; /* pill shape */
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .insta-gradient-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  
+  .logo-imghome {
+    width: 400px; /* or whatever fits your layout */
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .insta-gradient-btn2 {
+    background: linear-gradient(135deg, #f57c00, #0a2a45);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 999px;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .insta-gradient-btn2:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  
+  /* ==== */
+  .btn-orangehome {
+    background-color: #f57c00;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 999px;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 0 4px 12px rgba(245, 124, 0, 0.4);
+  }
+  
+  .btn-orangehome:hover {
+    color:#f57c00;
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+  
+  .btn-bluehome {
+    background-color: #0a2a45;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 999px;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 0 4px 12px rgba(10, 42, 69, 0.4);
+  }
+  
+  .btn-bluehome:hover {
+    color: #0a2a45;
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+  

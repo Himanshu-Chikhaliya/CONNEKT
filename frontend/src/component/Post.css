@@ -1,0 +1,22 @@
+.myborder {
+    border: 2px solid #f57c00; /* orange color with solid style */
+    border-radius: 10px;
+  }
+  .btn-blue {
+    background-color: #0a2a45;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 0 4px 12px rgba(10, 42, 69, 0.4);
+  }
+  
+  .btn-blue:hover {
+    color: white;
+    background-color: #f57c00;
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
